@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600;700&family=Satisfy&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&family=Satisfy&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&family=Satisfy&family=Train+One&display=swap');
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         --color1: #fcd970;
+         --color2: rgb(246, 221, 75);
+         --color3: #ce9bd7;
+         --color4: #08d260bb;
+         --color5: #bad5fc;
+         --color6: #dfabbd;
+         --color7: #00539CFF;
+         --color8: #EEA47FFF;
+         --color01: #ce9bd7;
+         --color02:#ce9bd7;
+         --color03: rgba(43, 205, 241, 0.2);
+         --color04: white;
+         --color05: #ce9bd7;
+         /* --color06: #ff4c29; */
+         text-decoration: none;
+         /* list-style-type: none; */
+         scroll-behavior: smooth;
+     }
+     .bg-new-color
+     {
+        border:2px solid var(--color01);
+        /* background-color: var(--color01); */
+        color:var(--color01);
+
+     }
+
+     .catg{
+        background-color: var(--color03);
+     }
+     .color-grey {
+         color: rgb(124, 123, 123);
+     }
+     
+     .bg-color {
+         background-color: var(--color03);
+         /* color: white; */
+     }
+     
+     .font-color {
+         color: var(--color8);
+     }
+  
+     .color5 {
+         color: var(--color05);
+     }
+     
+     .color {
+         background-color: var(--color04);
+     }
+     
+     .nav-container {
+         position: sticky;
+         top: 0;
+         z-index: 10;
+         background-color: var(--color3);
+         /* color: white; */
+     }
+     
+     nav #nav {
+         transition: 0.5s;
+     }
+     
+     nav .nav-icon i {
+         transition: 1s;
+     }
+     
+     nav .logo .name-color {
+         color: var(--color05);
+     }
+     
+     nav .logo .logo-size {
+         font-family: 'Orbitron', sans-serif;
+         font-size: 20px;
+     }
+     
+     nav ul li {
+         position: relative;
+     }
+     
+     nav .ul-hover li a {
+         text-transform: uppercase;
+         font-size: 0.8rem;
+         font-weight: 500;
+         transition: 0.5s;
+         color: black;
+     }
+     
+     nav .ul-hover li a::after {
+         width: 0;
+         content: "";
+         background-color: var(--color1);
+         height: 2px;
+         position: absolute;
+         left: 0;
+         bottom: -4px;
+         transition: 0.5s;
+     }
+     
+     nav ul li .myactive::after {
+         content: "";
+         width: 100%;
+         background-color: var(--color1);
+         height: 2px;
+         position: absolute;
+         left: 0;
+         bottom: -4px;
+     }
+     
+     nav .ul-hover li a:hover::after {
+         width: 100%;
+     }
+     
+     nav .ul-hover li a:hover {
+         font-weight: 500;
+     }
+     
+     nav .ul-hover2 li a {
+         color: #000;
+         padding: 10px;
+         transition: 0.3s;
+     }
+     
+     nav .ul-hover2 li a:hover {
+         background-color: var(--color03);
+         color: var(--color05);
+     }
+     
+     nav #nav {
+         transition: 0.5s;
+     }
+     
+     .hide {
+         display: none;
+     }
+     
+     /* .show {
+         display: inline-block;
+     } */
+    .modal-backdrop{
+        z-index: 0;
+    }
+    body{
+        background-color: var(--color03);
+     }
+     
+     .mycontainer .col1 p {
+         font-size: 10px;
+     }
+     
+     .mycontainer .col1 button {
+         font-size: medium;
+     }
+     
+     .mycontainer .col1 button:hover {
+         /* color: white; */
+         background-color: var(--color01);
+     }
+  
+     .mycontainer .col2 img {
+         margin-top: 0;
+         width: 300px;
+         height: auto;
+     }
+
+     /* footer */
+
+      /* --footer--- */
+     
+      .footer-container {
+        background: var(--color01);
+    }
+    
+    .footer-container h6 {
+        font-size: 13px;
+    }
+    
+    .footer-container1 span {
+        
+        display: block;
+        font-size: 13px;
+        padding: 2px 0px;
+        text-transform: capitalize;
+    }
+    
+    .footer-container span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .footer-container i {
+        color: white;
+        padding-right: 10px;
+    }
+    
+    .footer-container2 span {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20px;
+    }
+    
+    .footer-container2 p {
+        font-size: 12px;
+    }

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Admin</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="adstyle.css">
+  <!-- <link rel="stylesheet" href="../style.css"> -->
+
+</head>
+<body>
+<div class="wrapper">
+ <div class="left-side" id="ls-m">
+  <a href="#"><svg viewBox="0 0 512 512" fill="currentColor">
+   <path d="M255.2 468.6H63.8a21.3 21.3 0 01-21.3-21.2V64.6c0-11.7 9.6-21.2 21.3-21.2h191.4a21.2 21.2 0 100-42.5H63.8A63.9 63.9 0 000 64.6v382.8A63.9 63.9 0 0063.8 511H255a21.2 21.2 0 100-42.5z" />
+   <path d="M505.7 240.9L376.4 113.3a21.3 21.3 0 10-29.9 30.3l92.4 91.1H191.4a21.2 21.2 0 100 42.6h247.5l-92.4 91.1a21.3 21.3 0 1029.9 30.3l129.3-127.6a21.3 21.3 0 000-30.2z" /></svg></a>
+ </div>
+ <div class="main-container">
+  <div class="header">
+   <div class="logo">Sparkle</div>
+   <a class="header-link active" href="#">
+    Admin
+   </a>
+   <div class="user-info">
+    <div class="user-name">Admin</div>
+    
+   </div>
+  </div>
+  <div class="user-box first-box">
+   <div class="activity card"  >
+    <div class="title">User Activities</div>
+    <div class="subtitle">Choose a job you love, and you will never have to work a day in your life.</div>
+    <div class="activity-links">
+     <div class="activity-link active">Current User</div>
+     <div class="activity-link notify">User Request</div>
+    </div>
+    <div class="pd">
+     <div class="pd-card">
+      <div class="pd-profile">
+       <img class="pd-img" src="../../img/jp1.png" alt="pd" />
+       <div class="pd-min">
+        44m ago
+       </div>
+      </div>
+      <div class="pd_p">
+       <div class="point">Business</div>
+       <div class="pd_loc"></div>
+      </div>
+     </div>
+     <div class="pd-card">
+      <div class="pd-profile">
+       <img class="pd-img" src="../../img/jp2.png" alt="" />
+       <div class="pd-min">
+        1 hour ago
+       </div>
+      </div>
+      <div class="pd-p">
+       <div class="point">Type</div>
+       <div class="pd-loc">Yangon, Myanmar</div>
+      </div>
+     </div>
+    </div>
+   </div>
+  
+   <div class="account-wrapper" id="ac-d-4" >
+    <div class="account-profile">
+     <img src="../lg_fav/SB.png" alt="">
+     <div class="blob-wrap">
+      <div class="blob"></div>
+      <div class="blob"></div>
+      <div class="blob"></div>
+     </div>
+     <div class="account-name">Sizt</div>
+     <div class="account-title">Admin</div>
+    </div>
+    <div class="account card">
+     <div class="account-cash">$ 6969.69</div>
+     <div class="account-income">Total Income</div>
+     <div class="account-iban">**** **** **** 1976</div>
+    </div>
+   </div>
+  </div>
+
+  <!--BSIL -->
+  <div class="user-box second-box">
+   <div class="cards-wrapper" id="ac-d-5" >
+    <div class="cards-header">
+     <div class="cards-view">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+       <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+       <path d="M16 2v4M8 2v4M3 10h18" />
+      </svg>
+      Business Sell Item Lists
+     
+     </div>
+     
+     
+    </div>
+    <div class="cards card">
+     <table class="table">
+      <thead>
+       <tr>
+        <th>itemID</th>
+        <th>Name</th>
+        <th>category</th>
+        <th>Price</th>
+        <th>Status</th>
+        <th>seller</th>
+        <th>phone</th>
+        <th>Description</th>
+        <th>Price</th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td>
+         <!-- <input type="checkbox" id="row1" class="table-row"> -->
+         <span class="time">13:00</span>
+        </td>
+        <td>Johny D</td>
+        <td>Food</td>
+        <td>1000$</td>
+        <td>
+         <div class="status is-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M20 6L9 17l-5-5" />
+          </svg>
+          Accepted
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <input type="checkbox" id="row2" class="table-row">
+         <span class="time">17.00</span>
+        </td>
+        <td>Ruri Saijo</td>
+        <td>Handmade</td>
+        <td>1500$</td>
+        <td>
+         <div class="status is-red">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+          Rejected
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <input type="checkbox" id="row3" class="table-row">
+         <span class="time is-wait">17.00</span>
+        </td>
+        <td>Aldof Hitler</td>
+        <td>Drawing</td>
+        <td>1499$</td>
+        <td>
+         <div class="status is-wait"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader">
+           <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          Waiting
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <input type="checkbox" id="row4" class="table-row">
+         <span class="time is-wait">17.00</span>
+        </td>
+        <td>Micheal Jordan</td>
+        <td>Flower Botique</td>
+        <td>6969$</td>
+        <td>
+         <div class="status is-wait"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader">
+           <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          Waiting
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <input type="checkbox" id="row5" class="table-row">
+         <span class="time">17.00</span>
+        </td>
+        <td>Jeff Bezos</td>
+        <td>Journaling</td>
+        <td>$ 1 million</td>
+        <td>
+         <div class="status is-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M20 6L9 17l-5-5" />
+          </svg>
+          Accepted
+         </div>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+   
+
+    <!--BSIL -->
+  <!-- <div class="user-box second-box">
+    <div class="cards-wrapper" id="ac-d-5" >
+     <div class="cards-header">
+      <div class="cards-view">
+       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+        <path d="M16 2v4M8 2v4M3 10h18" />
+       </svg>
+       Business Sell Item Lists
+      
+      </div>
+      
+      
+     </div>
+     <div class="cards card">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>itemID</th>
+         <th>Name</th>
+         <th>category</th>
+         <th>Image</th>
+         <th>Price</th>
+         <th>seller</th>
+         <th>phone</th>
+         <th>Descript</th>
+         <th>Status</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+        
+          <span class="time">13:00</span>
+         </td>
+         <td>Johny D</td>
+         <td>Teacher</td>
+         <td>1000$</td>
+         <td>
+          <div class="status is-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 6L9 17l-5-5" />
+           </svg>
+           Accepted
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input type="checkbox" id="row2" class="table-row">
+          <span class="time">17.00</span>
+         </td>
+         <td>Ruri Saijo</td>
+         <td>Nurse</td>
+         <td>1500$</td>
+         <td>
+          <div class="status is-red">
+           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6L6 18M6 6l12 12" />
+           </svg>
+           Rejected
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input type="checkbox" id="row3" class="table-row">
+          <span class="time is-wait">17.00</span>
+         </td>
+         <td>Aldof Hitler</td>
+         <td>Programmer</td>
+         <td>1499$</td>
+         <td>
+          <div class="status is-wait"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+           </svg>
+           Waiting
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input type="checkbox" id="row4" class="table-row">
+          <span class="time is-wait">17.00</span>
+         </td>
+         <td>Micheal Jordan</td>
+         <td>Architect</td>
+         <td>6969$</td>
+         <td>
+          <div class="status is-wait"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-loader">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+           </svg>
+           Waiting
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <input type="checkbox" id="row5" class="table-row">
+          <span class="time">17.00</span>
+         </td>
+         <td>Jeff Bezos</td>
+         <td>Networking</td>
+         <td>$ 1 million</td>
+         <td>
+          <div class="status is-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 6L9 17l-5-5" />
+           </svg>
+           Accepted
+          </div>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div> -->
+   
+      <!-- footer -->
+
+    <!-- end -->
+ </div>
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

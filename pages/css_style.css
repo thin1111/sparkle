@@ -1,0 +1,181 @@
+	
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+
+body{
+    background-color: #CDCDB4;
+}
+h1{
+    background-color: rgba(0,255,255,0.2);
+    text-align: center;
+    font-family: "Microsoft JhengHei Light";
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+    word-spacing: 5px;
+    color: brown;
+}
+.div1{
+    background-image:  url("../images/mandalay-tours.jpg");
+    background-repeat: no-repeat;
+    height: 385px;
+}
+.navbar
+{
+    background-color: rgb(178,34,34);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    word-spacing: 5px;
+}
+a{
+    color: white;
+}
+img{
+    /*width: 30%;*/
+    height: 250px;
+}
+h2
+{
+    color: rgb(178,34,34);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.food-img
+{
+    height: 180px;
+    padding: 10px;
+
+}
+.imgrate
+{
+    height: 60px;
+    width: 250px;
+}
+.body-div
+{
+    padding: 5px;
+}
+h3
+{
+    color: rgb(178,34,34);
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.item-font
+{
+    font-weight: bold;
+    text-shadow: 3px 3px #CDCDB4;
+}
+#footer
+{
+    background-color: rgb(178,34,34);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    color: white;
+    margin-top: 50px;
+    
+
+}
+#relog{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#nav-h3{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-weight: bold;
+}
+#galleryh4{
+    font-weight: bold;
+    color: rgb(178,34,34);
+    text-shadow: 2px 2px white;
+    font-size: 35px;
+}
+.garow{
+    border-radius: 30px;
+}
+
+/* Styling h1 and links
+––––––––––––––––––––––––––––––––– */
+h1[alt="Simple"] {color: white;}
+a[href], a[href]:hover {color: orange; font-size: 1em; text-decoration: none}
+
+
+body
+{
+/* background: #4a4a4c !important;*/
+
+}
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+content: "\f005"; /* Star */
+margin: 2px;
+font-size: 2em;
+font-family: FontAwesome;
+display: inline-block; 
+}
+
+.starrating > label
+{
+color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+.comments .authorImage .imageWrapper {
+padding: 0px;
+display: inline-block;
+}
+
+.commentsUserImage {
+border-radius: 30px;
+}
+
+.comments .authorImage .imageWrapper img {
+width: 100%;
+max-width: 80px;
+min-width: 40px;
+float: left;
+}
+
+.imageWrapper img {
+border: 0px solid #c0c0c0;
+border-radius: 50%;
+}
+
+.img-responsive {
+display: block;
+height: auto;
+max-width: 100%;
+}
+
+.signInCommentArea {
+position: relative;
+}
+
+.signInCommentArea i.fa-user {
+font-size: 0.875rem;
+left: 13px;
+top: 10px;
+}
+.signInCommentArea i {
+position: absolute;
+left: 12px;
+opacity: .5;
+}
+
